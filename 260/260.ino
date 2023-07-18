@@ -86,5 +86,8 @@ void loop() {
   Serial.println("Datos enviados a ThingSpeak!");Serial.print("\n"); 
   //delay(10000);
 
+  ESP.deepSleep(1800, WAKE_RF_DISABLED);
+  
+
   
 }
