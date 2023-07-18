@@ -1,6 +1,6 @@
 #include <Adafruit_INA260.h>
 #include <wire.h>
-#include <LiquidCrystal.h>
+
 #include <WiFi.h>
 #include "ThingSpeak.h"
 
@@ -77,7 +77,7 @@ void loop() {
   ThingSpeak.setField(2,current_A);
   ThingSpeak.setField(3,power_W);
 
-  String volta = String(loadvoltage);
+ 
 
  
   
